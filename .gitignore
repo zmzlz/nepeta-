@@ -1,0 +1,28 @@
+# ── 依赖 ──
+node_modules/
+.m2/
+
+# ── 构建产物（含已打包的演示数据，请勿提交）──
+frontend/dist/
+backend/target/
+*.class
+
+# ── 用户上传文件 ──
+uploads/
+backend/uploads/
+
+# ── 旧版原型（与当前项目无关，不纳入版本管理）──
+before/
+
+# ── 多余的嵌套目录 ──
+backend/backend/
+
+# ── 日志与本地配置 ──
+*.log
+.DS_Store
+desktop.ini
+
+# ── IDE ──
+.idea/
+.vscode/
+*.iml
